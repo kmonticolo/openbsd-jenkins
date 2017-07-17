@@ -1,0 +1,4 @@
+ pkg_info -P jenkins|grep http|tail -1| sed 's/.*\ //g'
+pkg_info -P jenkins|grep http|tail -1| sed 's/.*\///g'
+
+
